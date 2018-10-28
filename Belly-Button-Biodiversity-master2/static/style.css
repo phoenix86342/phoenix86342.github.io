@@ -1,0 +1,45 @@
+body {
+    background-image: url("bacteria_mhl.png");
+    background-color: rgb(96,96,96);
+    background-position: fixed;
+}
+.container-fluid {
+    background: rgb(216,216,216);
+    outline: .01px double black;
+    padding: 1%;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.panel {
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+.panel-default > .panel-body {
+    background-color: #bbb;
+}
+
+.panel-info > .panel-heading {
+    background-image: none;
+    background-color: royalblue;
+}
+
+.panel-title {
+    background-color: inherit;
+    color: white;
+}
+
+#bubblePlot {
+    width: 98%;
+    height: 98%;
+    padding: 1%;
+}
+
+#piePlot {
+    width: 100%;
+    height: 100%;
+}
